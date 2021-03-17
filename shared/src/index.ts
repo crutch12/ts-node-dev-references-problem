@@ -6,6 +6,6 @@ export type B = { // COMMENT ME TO TEST HOT RELOAD [3]
 }
 
 // here is the problem too - if you comment this, code hot reloads, but you don't see error - just "undefined" on the other side (so JS works fine, but TS - NO)
-export enum C { // COMMENT ME TO TEST HOT RELOAD [3]
+export enum C { // COMMENT ME TO TEST HOT RELOAD [4]
     C = 'C'
 }

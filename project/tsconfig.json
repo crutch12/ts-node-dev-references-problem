@@ -1,2 +1,11 @@
 {
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "references": [
+        {
+            "path": "../shared"
+        }
+    ]
 }
